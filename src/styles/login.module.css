@@ -1,0 +1,112 @@
+
+  
+  .container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #fff;
+    gap:8px;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+
+  }
+  .loginForm{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    padding:4px;
+  }
+  h1 {
+    margin: 0 0 16px 0;
+    align-self: flex-start;
+    font-size: 22px;
+    font-weight: normal;
+  }
+  
+  .field {
+    margin-bottom: 8px;
+    width: 95%;
+  }
+  
+  label {
+    display:inline-block;
+    margin-bottom: 4px;
+    font-weight: normal;
+  }
+  
+  input {
+    width: 95%;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  .wrapper{
+    width:95%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8px;
+   
+  }
+  .wrapper .checkbox{
+      width:50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      margin:0;
+      gap:4px;
+  }
+  .wrapper .checkbox input{
+    width:16px;
+    height: 16px;
+    margin:0;
+  }
+  .wrapper .forgetPasswordWrapper{
+    width:50%;
+    display:flex;
+    justify-content: flex-end;
+  }
+ 
+  .wrapper .forgetPasswordWrapper .forgetPasswordLink{
+    text-decoration: none;
+    color:black;
+  }
+  .btn {
+    background-color:  red;
+    color: #fff;
+    border: none;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+    width:80px;
+    align-self: center;
+    border-radius: 4px;
+  }
+  .btn:hover{
+    background-color: rgb(233, 59, 59);
+    cursor: pointer;
+  }
+ 
+  .clickToJoin{
+    display: flex;
+    justify-content: center;
+    gap:4px;
+  }
+  .clickToJoin a{
+    text-decoration: none;
+    color: red;
+  }
+  @media only screen and (min-width:768px){
+    .container{
+      width:400px;
+    }
+    .field{
+      width: 98%;
+    }
+    .wrapper{
+      width: 98%;
+    }
+  }
